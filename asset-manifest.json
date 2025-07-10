@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.cce6165e.css",
+    "main.js": "/Portfolio/static/js/main.6d6c378b.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.5be239f2808fc8a33267.png",
+    "static/media/CharityAwoke.png": "/Portfolio/static/media/CharityAwoke.d0a448c9eb3237c7e37e.png",
+    "static/media/Logo.png": "/Portfolio/static/media/Logo.878cb4cbfcf7592452fa.png",
+    "static/media/LogoBlack.png": "/Portfolio/static/media/LogoBlack.7e67399e5d4d90ca9081.png",
+    "static/media/project2.jpg": "/Portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
+    "static/media/project4.jpg": "/Portfolio/static/media/project4.a7b7ed11daa072b234eb.jpg",
+    "static/media/project3.jpg": "/Portfolio/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/php.png": "/Portfolio/static/media/php.4990580e9b615aeebb1f.png",
+    "static/media/after-effects.png": "/Portfolio/static/media/after-effects.03e971e7831a35f59c27.png",
+    "static/media/photoshop.png": "/Portfolio/static/media/photoshop.339f174c692e921a204a.png",
+    "static/media/project5.jpg": "/Portfolio/static/media/project5.f78aa3fd070fc4dd0bd1.jpg",
+    "static/media/project6.jpg": "/Portfolio/static/media/project6.a22c939898d6c4613b65.jpg",
+    "static/media/premiere-pro.png": "/Portfolio/static/media/premiere-pro.48fe2252b2519bbb9645.png",
+    "static/media/indesign.png": "/Portfolio/static/media/indesign.d630b298e5bf997a6193.png",
+    "index.html": "/Portfolio/index.html",
+    "main.cce6165e.css.map": "/Portfolio/static/css/main.cce6165e.css.map",
+    "main.6d6c378b.js.map": "/Portfolio/static/js/main.6d6c378b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cce6165e.css",
+    "static/js/main.6d6c378b.js"
+  ]
+}
