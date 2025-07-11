@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Components/Header";
+import { HashRouter as Router } from "react-router-dom";
 import Footer from "./Components/Footer";
-import Home from "./Pages/Home";
+import Header from "./Components/Header";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 function App() {
