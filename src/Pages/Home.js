@@ -78,7 +78,7 @@ function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-2 md:mt-0">
+      <div className="mt-2 md:mt-0 flex justify-center md:justify-end w-full">
         <img ref={myimageref} className="w-1/2 md:ml-auto rounded-full object-cover" src={img} alt="MbuviImage" />
       </div>
     </main>
