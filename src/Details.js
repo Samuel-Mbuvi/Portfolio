@@ -210,5 +210,5 @@ project lorem ipsum generator for dummy content`,
 // Enter your Contact Details here
 export const contactDetails = {
   email: "mbuvisamm@gmail.com",
-  phone: "+254 717 405 525",
+  phone: "+254 717 406 525",
 };
