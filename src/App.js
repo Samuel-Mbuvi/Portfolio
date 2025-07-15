@@ -4,6 +4,7 @@ import Header from "./Components/Header";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
+import LabChallenges from "./Pages/LabChallenges";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/technologies" element={<Technologies />} />
+        <Route path="/lab-challenges" element={<LabChallenges />} />
       </Routes>
       <Footer />
     </Router>
