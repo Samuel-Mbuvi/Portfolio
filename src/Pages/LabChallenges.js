@@ -3,7 +3,7 @@ import React from "react";
 const LabChallenges = () => {
   return (
     <section className="container mx-auto max-width section text-dark-heading dark:text-light-heading px-4 py-10">
-      <h1 className="text-3xl font-bold mb-6">🧪 Lab Challenges</h1>
+      <h1 className="text-3xl font-bold mb-6">⚙️ Lab Challenges</h1>
 
       {/* Challenge 1 */}
       <div className="mb-10 p-6 bg-white dark:bg-dark-card rounded-lg shadow-md">
