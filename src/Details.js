@@ -127,6 +127,37 @@ export const eduDetails = [
   },
 ];
 
+// Certifications
+export const certDetails = [
+  {
+    title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+    organization: "Microsoft",
+    earnedOn: "May 11, 2025",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/SamuelMbuvi-4559/6415AEBA0A872215?sharingId=BFF5ECEE6F9AF62F"
+  },
+  {
+    title: "Cloud Security Specialist",
+    organization: "Cyber Shujaa & Microsoft",
+    earnedOn: "May 2024",
+    link: ""
+  },
+  {
+    title: "Ethical Hacking Essentials",
+    organization: "EC-Council",
+    earnedOn: "Nov 2024",
+    link: "https://your-cert-link.com"
+  }
+];
+
+
+// Skills
+export const skills = [
+  "HTML5", "CSS3", "JavaScript", "React", "PHP",
+  "Tailwind CSS", "Git & GitHub", "Photoshop", "Premiere Pro",
+  "Postman", "Cybersecurity Fundamentals", "Cloud Security"
+];
+
+
 // Tech Stack and Tools
 export const techStackDetails = {
   html: html,

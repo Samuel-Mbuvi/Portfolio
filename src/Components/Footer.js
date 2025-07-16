@@ -9,7 +9,7 @@ function Footer() {
   
   return (
     <footer className="w-full bg-[#f5f5dc] text-dark-content dark:text-light-content py-6 px-4">
-      <div className="max-w-6xl mx-auto text-center grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="max-width mx-auto text-center grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Contact Info */}
         <div className="flex flex-col items-center">
           <h4 className="font-semibold mb-2">Contact</h4>
@@ -25,7 +25,7 @@ function Footer() {
           <h4 className="font-semibold mb-2">Quick Links</h4>
           <ul className="text-sm space-y-1">
             <li><Link to="/" className="hover:underline">Home</Link></li>
-            <li><Link to="/about" className="hover:underline">About</Link></li>
+            <li><Link to="/resume" className="hover:underline">Resume Outline</Link></li>
             <li><Link to="/projects" className="hover:underline">Projects</Link></li>
             <li><Link to="/technologies" className="hover:underline">Technologies</Link></li>
             <li><Link to="/lab-challenges" className="hover:underline">Lab Challenges</Link></li>
