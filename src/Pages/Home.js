@@ -88,7 +88,7 @@ function Home() {
         <h2 className="text-2xl font-bold mb-2">About Me</h2>
         <p className="text-base mb-4 max-w-xl">
           {about.split(" ").slice(0, 36).join(" ")}...
-          <Link to="/about" className="text-blue-600 underline hover:text-blue-800 ml-2">
+          <Link to="/resume" className="text-blue-600 underline hover:text-blue-800 ml-2">
             Read more
           </Link>
         </p>
