@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1939e638.css",
-    "main.js": "/Portfolio/static/js/main.a2388801.js",
+    "main.css": "/Portfolio/static/css/main.04fa5bac.css",
+    "main.js": "/Portfolio/static/js/main.5fbc6cc3.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.7cd4f4ebb210d136007e.png",
     "static/media/CharityAwoke.png": "/Portfolio/static/media/CharityAwoke.d0a448c9eb3237c7e37e.png",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.878cb4cbfcf7592452fa.png",
@@ -17,11 +17,11 @@
     "static/media/premiere-pro.png": "/Portfolio/static/media/premiere-pro.48fe2252b2519bbb9645.png",
     "static/media/indesign.png": "/Portfolio/static/media/indesign.d630b298e5bf997a6193.png",
     "index.html": "/Portfolio/index.html",
-    "main.1939e638.css.map": "/Portfolio/static/css/main.1939e638.css.map",
-    "main.a2388801.js.map": "/Portfolio/static/js/main.a2388801.js.map"
+    "main.04fa5bac.css.map": "/Portfolio/static/css/main.04fa5bac.css.map",
+    "main.5fbc6cc3.js.map": "/Portfolio/static/js/main.5fbc6cc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1939e638.css",
-    "static/js/main.a2388801.js"
+    "static/css/main.04fa5bac.css",
+    "static/js/main.5fbc6cc3.js"
   ]
 }
