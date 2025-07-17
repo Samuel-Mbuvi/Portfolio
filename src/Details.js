@@ -26,7 +26,7 @@ import tailwind from "./assets/techstack/tailwind.png";
 import vscode from "./assets/techstack/vscode.png";
 // Porject Images
 import projectImage1 from "./assets/projects/CharityAwoke.png";
-import projectImage2 from "./assets/projects/project2.jpg";
+import projectImage2 from "./assets/projects/McubambaSite.png";
 import projectImage3 from "./assets/projects/project3.jpg";
 import projectImage4 from "./assets/projects/project4.jpg";
 import projectImage5 from "./assets/projects/project5.jpg";
@@ -193,19 +193,18 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Breast Cancer prediction model using machine learning",
+    title: "🎵 Music Artist Website – Mcubamba Robbah",
     image: projectImage2,
-    description: `Built a machine learning model to predict whether a tumor is malignant or benign using algorithms like Logistic Regression and Random Forest, trained on medical data for accurate classification.`,
-    techstack: "Jupyter Notebook, Python, NumPy, Pandas, Matplotlib",
+    description: `Built a media-rich website for Kenyan artist Mcubamba Robbah with embedded YouTube and Spotify tracks, performance highlights, merchandise, and a booking form.`,
+    techstack: "React, CSS, YouTube & Spotify Embeds, Email Integration",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Breast Cancer prediction model using machine learning",
     image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Built a machine learning model to predict whether a tumor is malignant or benign using algorithms like Logistic Regression and Random Forest, trained on medical data for accurate classification.`,
+    techstack: "Jupyter Notebook, Python, NumPy, Pandas, Matplotlib",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
