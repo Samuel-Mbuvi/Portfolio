@@ -88,7 +88,7 @@ export const eduDetails = [
     Company: "Cyber Shujaa, Microsoft",
     Location: "Online",
     Type: "Part Time",
-    Duration: "April 2024 - Present",
+    Duration: "May 2025 - Present",
   },
   {
     Position: "Ethical Hacking Essentials",
@@ -138,14 +138,14 @@ export const certDetails = [
   {
     title: "Cloud Security Specialist",
     organization: "Cyber Shujaa & Microsoft",
-    earnedOn: "May 2024",
+    earnedOn: "May 2025",
     link: ""
   },
   {
     title: "Ethical Hacking Essentials",
     organization: "EC-Council",
     earnedOn: "Nov 2024",
-    link: "https://your-cert-link.com"
+    link: "",
   }
 ];
 
@@ -154,6 +154,7 @@ export const certDetails = [
 export const skills = [
   "HTML5", "CSS3", "JavaScript", "React", "PHP",
   "Tailwind CSS", "Git & GitHub", "Photoshop", "Premiere Pro",
+  "InDesign", "Figma",
   "Postman", "Cybersecurity Fundamentals", "Cloud Security"
 ];
 
@@ -192,11 +193,10 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 2",
+    title: "Breast Cancer prediction model using machine learning",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Built a machine learning model to predict whether a tumor is malignant or benign using algorithms like Logistic Regression and Random Forest, trained on medical data for accurate classification.`,
+    techstack: "Jupyter Notebook, Python, NumPy, Pandas, Matplotlib",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },
