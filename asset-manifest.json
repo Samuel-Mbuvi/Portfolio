@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.04fa5bac.css",
-    "main.js": "/Portfolio/static/js/main.a5a2db1b.js",
+    "main.js": "/Portfolio/static/js/main.d726fe64.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.7cd4f4ebb210d136007e.png",
     "static/media/CharityAwoke.png": "/Portfolio/static/media/CharityAwoke.d0a448c9eb3237c7e37e.png",
+    "static/media/McubambaSite.png": "/Portfolio/static/media/McubambaSite.fc467e17d001518cb35d.png",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.878cb4cbfcf7592452fa.png",
     "static/media/LogoBlack.png": "/Portfolio/static/media/LogoBlack.7e67399e5d4d90ca9081.png",
-    "static/media/project2.jpg": "/Portfolio/static/media/project2.5fae296d371cc56cd98a.jpg",
     "static/media/project4.jpg": "/Portfolio/static/media/project4.a7b7ed11daa072b234eb.jpg",
     "static/media/project3.jpg": "/Portfolio/static/media/project3.03535c34c110b7ea292b.jpg",
     "static/media/php.png": "/Portfolio/static/media/php.4990580e9b615aeebb1f.png",
@@ -18,10 +18,10 @@
     "static/media/indesign.png": "/Portfolio/static/media/indesign.d630b298e5bf997a6193.png",
     "index.html": "/Portfolio/index.html",
     "main.04fa5bac.css.map": "/Portfolio/static/css/main.04fa5bac.css.map",
-    "main.a5a2db1b.js.map": "/Portfolio/static/js/main.a5a2db1b.js.map"
+    "main.d726fe64.js.map": "/Portfolio/static/js/main.d726fe64.js.map"
   },
   "entrypoints": [
     "static/css/main.04fa5bac.css",
-    "static/js/main.a5a2db1b.js"
+    "static/js/main.d726fe64.js"
   ]
 }
