@@ -84,20 +84,6 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Cloud Security Specialist",
-    Company: "Cyber Shujaa, Microsoft",
-    Location: "Online",
-    Type: "Part Time",
-    Duration: "May 2025 - Present",
-  },
-  {
-    Position: "Ethical Hacking Essentials",
-    Company: `Cyber Shujaa`,
-    Location: "Online",
-    Type: "Part Time",
-    Duration: "Oct 2024 - Nov 2024",
-  },
-  {
     Position: "Bachelor of Science in Computer Science",
     Company: `Kisii University`,
     Location: "Kisii Main Campus",
@@ -135,18 +121,25 @@ export const certDetails = [
     earnedOn: "May 11, 2025",
     link: "https://learn.microsoft.com/api/credentials/share/en-us/SamuelMbuvi-4559/6415AEBA0A872215?sharingId=BFF5ECEE6F9AF62F"
   },
+    {
+    title: "EC-Council Essentials: Ethical Hacking",
+    organization: "Cyber Shujaa",
+    earnedOn: "Aug 27, 2025",
+    link: "",
+  },
   {
     title: "Cloud Security Specialist",
     organization: "Cyber Shujaa & Microsoft",
     earnedOn: "May 2025",
     link: ""
   },
-  {
-    title: "Ethical Hacking Essentials",
-    organization: "EC-Council",
-    earnedOn: "Nov 2024",
-    link: "",
+    {
+    title: "The Cyber Security Threat Landscape",
+    organization: "LinkedIn Learning",
+    earnedOn: "May 25, 2025",
+    link: "https://www.linkedin.com/learning/certificates/f4d9026dd6ffaeb3e171192d2d364ff76d37017fd54355c4a0613168d558e89e"
   }
+
 ];
 
 
@@ -201,7 +194,7 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Breast Cancer prediction model using machine learning",
+    title: "Academic Project: Breast Cancer prediction model using machine learning",
     image: projectImage3,
     description: `Built a machine learning model to predict whether a tumor is malignant or benign using algorithms like Logistic Regression and Random Forest, trained on medical data for accurate classification.`,
     techstack: "Jupyter Notebook, Python, NumPy, Pandas, Matplotlib",
