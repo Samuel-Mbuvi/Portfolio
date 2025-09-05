@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2abaf959.css",
-    "main.js": "/Portfolio/static/js/main.4837d346.js",
+    "main.css": "/Portfolio/static/css/main.81529568.css",
+    "main.js": "/Portfolio/static/js/main.fae84064.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.7cd4f4ebb210d136007e.png",
     "static/media/CharityAwoke.png": "/Portfolio/static/media/CharityAwoke.d0a448c9eb3237c7e37e.png",
     "static/media/McubambaSite.png": "/Portfolio/static/media/McubambaSite.fc467e17d001518cb35d.png",
@@ -17,11 +17,11 @@
     "static/media/premiere-pro.png": "/Portfolio/static/media/premiere-pro.48fe2252b2519bbb9645.png",
     "static/media/indesign.png": "/Portfolio/static/media/indesign.d630b298e5bf997a6193.png",
     "index.html": "/Portfolio/index.html",
-    "main.2abaf959.css.map": "/Portfolio/static/css/main.2abaf959.css.map",
-    "main.4837d346.js.map": "/Portfolio/static/js/main.4837d346.js.map"
+    "main.81529568.css.map": "/Portfolio/static/css/main.81529568.css.map",
+    "main.fae84064.js.map": "/Portfolio/static/js/main.fae84064.js.map"
   },
   "entrypoints": [
-    "static/css/main.2abaf959.css",
-    "static/js/main.4837d346.js"
+    "static/css/main.81529568.css",
+    "static/js/main.fae84064.js"
   ]
 }
