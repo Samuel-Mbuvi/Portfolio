@@ -138,6 +138,12 @@ export const certDetails = [
     organization: "LinkedIn Learning",
     earnedOn: "May 25, 2025",
     link: "https://www.linkedin.com/learning/certificates/f4d9026dd6ffaeb3e171192d2d364ff76d37017fd54355c4a0613168d558e89e",
+  },
+  {
+    title: "SEO Certified",
+    organization: "Hubspot Academy",
+    earnedOn: "Sep 25, 2025",
+    link: "https://app-eu1.hubspot.com/academy/achievements/gsdvf7rs/en/1/samuel-mbuvi/seo",
   }
 
 ];
@@ -148,7 +154,7 @@ export const skills = [
   "HTML5", "CSS3", "JavaScript", "React", "PHP",
   "Tailwind CSS", "Git & GitHub", "Photoshop", "Premiere Pro",
   "InDesign", "Figma",
-  "Postman", "Cybersecurity Fundamentals", "Cloud Security"
+  "Postman", "Cybersecurity Fundamentals", "Cloud Security", "SEO"
 ];
 
 
