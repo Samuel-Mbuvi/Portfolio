@@ -133,11 +133,11 @@ export const certDetails = [
     earnedOn: "May 2025",
     link: ""
   },
-    {
+  {
     title: "The Cyber Security Threat Landscape",
     organization: "LinkedIn Learning",
     earnedOn: "May 25, 2025",
-    link: "https://www.linkedin.com/learning/certificates/f4d9026dd6ffaeb3e171192d2d364ff76d37017fd54355c4a0613168d558e89e"
+    link: "https://www.linkedin.com/learning/certificates/f4d9026dd6ffaeb3e171192d2d364ff76d37017fd54355c4a0613168d558e89e",
   }
 
 ];

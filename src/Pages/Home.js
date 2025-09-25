@@ -92,6 +92,9 @@ function Home() {
             Read more
           </Link>
         </p>
+          <Link to="/resume" className="inline-block mt-6 px-4 py-2 bg-[#10A3E8] text-white rounded hover:bg-[#0e94d4]">
+          See Resume Outline
+          </Link>
       </section>
 
       {/* Projects Section */}

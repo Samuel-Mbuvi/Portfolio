@@ -1,84 +1,50 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, } = socialMediaUrl;
-  const toggleClass = () => {
-    setIsOpen(!isOpen);
-  };
+  const { linkdein, github } = socialMediaUrl;
 
   return (
-    <header className="container mx-auto md:flex justify-between py-1 max-width">
-      <div className="flex justify-between items-center py-2 md:py-4">
-        <NavLink to="/">
-          <img className="w-36" src={logos.logogradient} alt="logo" />
-        </NavLink>
-        <div onClick={toggleClass} className="cursor-pointer">
-          <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
-            width="25"
-            height="20"
-            viewBox="0 0 16 13"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M1.4375 1.3125H14.5625M1.4375 11.3125H14.5625H1.4375ZM1.4375 6.3125H14.5625H1.4375Z"
-              strokeWidth="1.875"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
-              Home
-            </NavLink>
-          </li>
-          
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/resume" onClick={toggleClass}>
-              Resume Outline
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
-              Projects
-            </NavLink>
-          </li>
-          <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
-              Technologies
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/lab-challenges" className="nav-link">
-              Lab Challenges
-            </NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact" onClick={toggleClass}>
-              Contact
-            </NavLink>
-          </li>
+    <header className="container mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between py-2 px-3 max-w-screen-xl">
+      {/* Logo */}
+      <NavLink to="/">
+        <img className="w-32 sm:w-38" src={logos.logogradient} alt="logo" />
+      </NavLink>
+
+      {/* Navigation */}
+      <nav className="flex flex-col sm:flex-row sm:items-center sm:justify-center w-full sm:w-auto gap-2 mt-2 sm:mt-0">
+        {/* Main Links */}
+        <ul
+          className="flex flex-wrap justify-center 
+                     space-x-3 sm:space-x-6 lg:space-x-8
+                     text-[12px] sm:text-base lg:text-lg
+                     font-medium dark:text-light-content w-full"
+        >
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/resume">Resume Outline</NavLink></li>
+          <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/technologies">Technologies</NavLink></li>
+          <li><NavLink to="/lab-challenges">Lab Challenges</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
-        <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
+
+        {/* Social Icons */}
+        <ul
+          className="flex justify-center sm:justify-start items-center 
+                     mt-2 sm:mt-0 
+                     space-x-3 sm:space-x-4 lg:space-x-6"
+        >
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
-                width="30"
-                height="30"
+                width="16"
+                height="16"
                 viewBox="0 0 30 30"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M15 0.599976C7.04701 0.599976 0.600006 7.04698 0.600006 15C0.600006 22.953 7.04701 29.4 15 29.4C22.953 29.4 29.4 22.953 29.4 15C29.4 7.04698 22.953 0.599976 15 0.599976ZM11.475 20.9685H8.55901V11.5845H11.475V20.9685ZM9.99901 10.4325C9.07801 10.4325 8.48251 9.77997 8.48251 8.97297C8.48251 8.14948 9.09601 7.51648 10.0365 7.51648C10.977 7.51648 11.553 8.14948 11.571 8.97297C11.571 9.77997 10.977 10.4325 9.99901 10.4325ZM22.125 20.9685H19.209V15.768C19.209 14.5575 18.786 13.7355 17.7315 13.7355C16.926 13.7355 16.4475 14.292 16.236 14.8275C16.158 15.018 16.1385 15.288 16.1385 15.5565V20.967H13.221V14.577C13.221 13.4055 13.1835 12.426 13.1445 11.583H15.678L15.8115 12.8865H15.87C16.254 12.2745 17.1945 11.3715 18.768 11.3715C20.6865 11.3715 22.125 12.657 22.125 15.42V20.9685Z" />
+                <path d="M15 0.6C7.047 0.6 0.6 7.047 0.6 15c0 7.953 6.447 14.4 14.4 14.4 7.953 0 14.4-6.447 14.4-14.4C29.4 7.047 22.953 0.6 15 0.6ZM11.475 20.97H8.559V11.585h2.916v9.385Zm-1.476-10.54c-.921 0-1.516-.653-1.516-1.46 0-.823.614-1.456 1.554-1.456.94 0 1.516.633 1.534 1.456 0 .807-.594 1.46-1.572 1.46ZM22.125 20.97h-2.916V15.77c0-1.21-.423-2.032-1.478-2.032-.805 0-1.283.557-1.495 1.093-.078.19-.097.46-.097.729v5.41H13.22V14.58c0-1.172-.037-2.151-.076-2.994h2.534l.134 1.303h.058c.384-.612 1.325-1.515 2.898-1.515 1.919 0 3.357 1.285 3.357 4.048v5.548Z"/>
               </svg>
             </a>
           </li>
@@ -86,16 +52,15 @@ function Header() {
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
-                width="30"
-                height="30"
+                width="16"
+                height="16"
                 viewBox="0 0 30 30"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
-                  d="M15 0C6.7125 0 0 6.7125 0 15C0 21.6375 4.29375 27.2437 10.2563 29.2313C11.0063 29.3625 11.2875 28.9125 11.2875 28.5188C11.2875 28.1625 11.2688 26.9813 11.2688 25.725C7.5 26.4188 6.525 24.8062 6.225 23.9625C6.05625 23.5312 5.325 22.2 4.6875 21.8438C4.1625 21.5625 3.4125 20.8687 4.66875 20.85C5.85 20.8313 6.69375 21.9375 6.975 22.3875C8.325 24.6562 10.4812 24.0187 11.3438 23.625C11.475 22.65 11.8688 21.9937 12.3 21.6187C8.9625 21.2437 5.475 19.95 5.475 14.2125C5.475 12.5813 6.05625 11.2313 7.0125 10.1813C6.8625 9.80625 6.3375 8.26875 7.1625 6.20625C7.1625 6.20625 8.41875 5.8125 11.2875 7.74375C12.4875 7.40625 13.7625 7.2375 15.0375 7.2375C16.3125 7.2375 17.5875 7.40625 18.7875 7.74375C21.6562 5.79375 22.9125 6.20625 22.9125 6.20625C23.7375 8.26875 23.2125 9.80625 23.0625 10.1813C24.0188 11.2313 24.6 12.5625 24.6 14.2125C24.6 19.9688 21.0938 21.2437 17.7563 21.6187C18.3 22.0875 18.7688 22.9875 18.7688 24.3937C18.7688 26.4 18.75 28.0125 18.75 28.5188C18.75 28.9125 19.0312 29.3813 19.7812 29.2313C22.759 28.2259 25.3465 26.3121 27.1796 23.7592C29.0127 21.2063 29.9991 18.1429 30 15C30 6.7125 23.2875 0 15 0Z"
+                  d="M15 0C6.713 0 0 6.713 0 15c0 6.637 4.293 12.244 10.256 14.231.75.131 1.031-.319 1.031-.713 0-.356-.019-1.537-.019-2.793-3.768.694-4.743-.919-5.043-1.762-.169-.431-.9-1.762-1.537-2.118-.525-.281-.9-.975.356-.994 1.181-.019 2.025 1.087 2.306 1.537 1.35 2.269 3.506 1.631 4.369 1.238.131-.975.525-1.631.956-2.006-3.337-.375-6.825-1.669-6.825-7.406 0-1.631.581-2.981 1.537-4.031-.15-.375-.675-1.912.15-3.975 0 0 1.256-.394 4.125 1.537 1.2-.338 2.475-.507 3.75-.507s2.55.169 3.75.507c2.869-1.95 4.125-1.537 4.125-1.537.825 2.062.3 3.6.15 3.975.956 1.05 1.537 2.381 1.537 4.031 0 5.756-3.506 7.031-6.844 7.406.544.469 1.012 1.369 1.012 2.775 0 2.006-.019 3.619-.019 4.125 0 .394.281.863 1.031.713 5.963-1.987 10.256-7.594 10.256-14.231C30 6.713 23.287 0 15 0Z"
                 />
               </svg>
             </a>
