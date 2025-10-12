@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.81529568.css",
-    "main.js": "/Portfolio/static/js/main.90820d8c.js",
+    "main.js": "/Portfolio/static/js/main.e73a932d.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.7cd4f4ebb210d136007e.png",
     "static/media/CharityAwoke.png": "/Portfolio/static/media/CharityAwoke.d0a448c9eb3237c7e37e.png",
     "static/media/McubambaSite.png": "/Portfolio/static/media/McubambaSite.fc467e17d001518cb35d.png",
@@ -18,10 +18,10 @@
     "static/media/indesign.png": "/Portfolio/static/media/indesign.d630b298e5bf997a6193.png",
     "index.html": "/Portfolio/index.html",
     "main.81529568.css.map": "/Portfolio/static/css/main.81529568.css.map",
-    "main.90820d8c.js.map": "/Portfolio/static/js/main.90820d8c.js.map"
+    "main.e73a932d.js.map": "/Portfolio/static/js/main.e73a932d.js.map"
   },
   "entrypoints": [
     "static/css/main.81529568.css",
-    "static/js/main.90820d8c.js"
+    "static/js/main.e73a932d.js"
   ]
 }
